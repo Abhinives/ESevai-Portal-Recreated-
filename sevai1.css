@@ -1,0 +1,83 @@
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: orange;
+}
+a{
+	text-decoration:none;
+	list-style:none;
+}
+img {
+  border-radius: 60%;
+}
+body {
+    background-color: #c4c4c4;
+  
+}
+
+.text {
+    position: left;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 50;
+    font-weight: 700;
+    color: #016310;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+#bigbox{
+	width:860px;
+	height:550px;
+	padding:10px;
+	background-color:white;
+	background-image:none;
+}
+#square1{
+	width:400px;
+	height:500px;
+	padding:10px;
+	background-color:white;
+	border:3px solid black;
+	color:black;
+	margin-top:20px;
+	color:white;
+}
+#square2{
+	width:400px;
+	height:500px;
+	padding:10px;
+	background-color:green;
+	border:3px solid black;
+	color:black;
+	margin-top:-525px;	
+	margin-left:430px;
+	color:white;
+}

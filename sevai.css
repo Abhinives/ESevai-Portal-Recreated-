@@ -1,0 +1,35 @@
+body{
+	background-image:url("https://lh3.googleusercontent.com/1ge3-IA3oMzmCExLjf0LG9SPnP8M9-bOXeGI-k5paT4KqxoMGnjzpR7XxjIy7veHpgVsFZub4iiQ4nIcdx1fan8OtdwJ80HAhByLw4MVcHyswyuP4qYTcE8mLGV9x16Wg5Hr4f8mhQ=w2400?source=screenshot.guru");
+	background-size:40%; 
+	background-repeat:no-repeat;
+	background-position:center; 
+	
+}
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: orange;
+}
+a{
+	text-decoration:none;
+}
+.btn{
+	background-color:green;
+}
+.h2{
+	font-family:"monospace";
+}
+
